@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parabank Suite">
+  <parameter name="browserName" value="chrome" />
+<!--<parameter name ="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>-->
+<parameter name="url" value="https://parabank.parasoft.com/"/>
+
+<test name ="DataProvider2 Test">
+
+<!--<parameter name="username" value="Admin" />
+ <parameter name="password" value="admin123"/>-->
+ 
+  <!--<test thread-count="5" name="Test">-->
+  
+   <classes>
+      <!--<class name="Day_29.ParameterExample"/>-->
+     <!-- <class name = "Day_29.ParameterExample2"/>-->
+       <!--<class name="Day_29.DataProviderExample"/>-->
+         <class name="Day_29.DataProvider2"/>
+    </classes>
+   
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
