@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="30.644" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="nopCommerce Actions" name="User Registration" time="7.224">
+<system-out><![CDATA[
+Given I am on the registration page.........................................passed
+When I register with valid details..........................................passed
+Then I should see registration success......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="nopCommerce Actions" name="Add Product to Cart" time="5.036">
+<system-out><![CDATA[
+Given I am on the Desktops category page....................................passed
+When I add a desktop product to the cart....................................passed
+Then The product should be added to the cart................................passed
+]]></system-out>
+</testcase>
+<testcase classname="nopCommerce Actions" name="Select Dropdown on Product Page" time="6.265">
+<system-out><![CDATA[
+Given I am on a product details page........................................passed
+When I select 8GB RAM option from dropdown..................................passed
+Then The dropdown selection should be applied...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="nopCommerce Actions" name="Select Radio Button on Product Page" time="6.01">
+<system-out><![CDATA[
+Given I am on a product details page........................................passed
+When I select HDD option....................................................passed
+And I add the product to the cart...........................................passed
+Then The product should be added with HDD option............................passed
+]]></system-out>
+</testcase>
+<testcase classname="nopCommerce Actions" name="Open Cart Page" time="5.825">
+<system-out><![CDATA[
+Given I am on the home page.................................................passed
+When I open the shopping cart...............................................passed
+Then The shopping cart should be displayed..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
